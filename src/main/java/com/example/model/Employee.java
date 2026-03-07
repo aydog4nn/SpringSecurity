@@ -13,6 +13,7 @@ import org.springframework.security.core.parameters.P;
 @NoArgsConstructor
 public class Employee {
 
+    // Bazı şeyler değişecek
     @Id()
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
